@@ -74,7 +74,7 @@ export default function BuyerDashboard() {
 
   return (
     <div className="p-6 space-y-6">
-      <h1 className="text-3xl font-bold">Chào mừng bạn 👋</h1>
+      <h1 className="text-3xl font-bold">Trang chủ</h1>
 
       {/* Quick Actions */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
