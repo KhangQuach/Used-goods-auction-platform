@@ -103,4 +103,4 @@ http://localhost:3000
 ## 👨‍💻 Tác giả
 
 - 💻 Frontend: Next.js + Tailwind + daisyUI
-- 📅 Project by: [Tên nhóm của bạn]
+- 📅 Project by: Quach Thieu Khang
