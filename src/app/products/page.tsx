@@ -124,7 +124,7 @@ export default function ProductsPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold">Danh sách sản phẩm đấu giá</h1>
+      <h1 className="text-2xl font-bold p-4">Danh sách sản phẩm đấu giá</h1>
 
       {/* Search bar */}
       <form onSubmit={handleSearch} className="flex gap-2">

@@ -34,12 +34,12 @@ export default function BuyerOrdersPage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold">Đơn hàng của bạn</h1>
+      <h1 className="text-2xl font-bold p-4">Đơn hàng của bạn</h1>
 
       {orders.length === 0 ? (
         <div className="alert alert-info">Bạn chưa có đơn hàng nào.</div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {orders.map((order) => (
             <div key={order.id} className="card bg-base-100 shadow-md">
               <figure>

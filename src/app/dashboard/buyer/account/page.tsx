@@ -39,7 +39,7 @@ export default function AccountPage() {
 
   return (
     <>
-      <h1 className="text-2xl font-bold">Tài khoản của bạn</h1>
+      <h1 className="text-2xl font-bold p-4">Tài khoản của bạn</h1>
       <div className="space-y-8 flex flex-col md:flex-row gap-6">
 
         {/* Cập nhật thông tin */}
@@ -47,34 +47,34 @@ export default function AccountPage() {
           <div className="card-body space-y-4 h-full">
             <h2 className="card-title">Thông tin cá nhân</h2>
 
-            <div className="form-control">
-              <label className="label">Họ và tên:</label>
+            <div className="form-control flex flex-row items-center gap-2">
+              <label className="label pr-2 min-w-[120px]">Họ và tên:</label>
               <input
                 type="text"
                 name="name"
-                className="input input-bordered"
+                className="input input-bordered flex-1"
                 value={form.name}
                 onChange={handleInfoChange}
               />
             </div>
 
-            <div className="form-control">
-              <label className="label">Email</label>
+            <div className="form-control flex flex-row items-center gap-2">
+              <label className="label pr-2 min-w-[120px]">Email</label>
               <input
                 type="email"
                 name="email"
-                className="input input-bordered"
+                className="input input-bordered flex-1"
                 value={form.email}
                 onChange={handleInfoChange}
               />
             </div>
 
-            <div className="form-control">
-              <label className="label">Số điện thoại</label>
+            <div className="form-control flex flex-row items-center gap-2">
+              <label className="label pr-2 min-w-[120px]">Số điện thoại</label>
               <input
                 type="text"
                 name="phone"
-                className="input input-bordered"
+                className="input input-bordered flex-1"
                 value={form.phone}
                 onChange={handleInfoChange}
               />
@@ -91,34 +91,34 @@ export default function AccountPage() {
           <div className="card-body space-y-4 h-full">
             <h2 className="card-title">Đổi mật khẩu</h2>
 
-            <div className="form-control">
-              <label className="label">Mật khẩu hiện tại</label>
+            <div className="form-control flex flex-row items-center gap-2">
+              <label className="label pr-2 min-w-[120px]">Mật khẩu hiện tại</label>
               <input
                 type="password"
                 name="current"
-                className="input input-bordered"
+                className="input input-bordered flex-1"
                 value={passwords.current}
                 onChange={handlePasswordChange}
               />
             </div>
 
-            <div className="form-control">
-              <label className="label">Mật khẩu mới</label>
+            <div className="form-control flex flex-row items-center gap-2">
+              <label className="label pr-2 min-w-[120px]">Mật khẩu mới</label>
               <input
                 type="password"
                 name="new"
-                className="input input-bordered"
+                className="input input-bordered flex-1"
                 value={passwords.new}
                 onChange={handlePasswordChange}
               />
             </div>
 
-            <div className="form-control">
-              <label className="label">Xác nhận mật khẩu mới</label>
+            <div className="form-control flex flex-row items-center gap-2">
+              <label className="label pr-2 min-w-[120px]">Xác nhận mật khẩu mới</label>
               <input
                 type="password"
                 name="confirm"
-                className="input input-bordered"
+                className="input input-bordered flex-1"
                 value={passwords.confirm}
                 onChange={handlePasswordChange}
               />

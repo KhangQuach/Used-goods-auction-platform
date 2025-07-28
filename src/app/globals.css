@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: nord --default, abyss --prefersdark
+  themes: silk --default, nord --prefersdark
 }
 /* :root {
   --background: #ffffff;
