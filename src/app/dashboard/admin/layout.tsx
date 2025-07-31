@@ -1,9 +1,9 @@
-import Navbar from '@/app/components/NavBar'
+import NavbarAdmin from '@/app/components/NavBarAdmin'
 
 export default function DashboardLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <Navbar />
+      <NavbarAdmin />
       <main className='container mx-auto'>{children}</main>
     </>
   )

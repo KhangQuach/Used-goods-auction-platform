@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: silk --default, nord --prefersdark
+  themes: caramellatte --default, night --prefersdark
 }
 /* :root {
   --background: #ffffff;
